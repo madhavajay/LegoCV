@@ -34,7 +34,8 @@
 
 - (void)dealloc {
     if (source) {
-        free(source);
+        // crashes
+        // free(source);
     }
     
     source = NULL;
